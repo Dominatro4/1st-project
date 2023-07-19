@@ -29,8 +29,8 @@ If you wish to contribute to the improvement of this website, feel free to fork 
 
 ## Validator
 HTML - Errors were detected by the validator regarding file paths
-
 CSS - The validator found no errors
+All screenshots are provided in "ss" folder
 
 ## License
 The code and content in this repository are licensed under MIT License. Feel free to use, modify, and distribute the code for educational or personal purposes.
