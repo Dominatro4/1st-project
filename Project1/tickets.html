@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Roman Empire Website</title>
+  <link rel="stylesheet" href="C:\Users\domin\Desktop\Project1\style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="C:\Users\domin\Desktop\Project1\index.html">Home</a></li>
+        <li><a href="C:\Users\domin\Desktop\Project1\about.html">About Us</a></li>
+        <li><a href="C:\Users\domin\Desktop\Project1\gallery.html">Gallery</a></li>
+		<li><a href="C:\Users\domin\Desktop\Project1\contact.html">Contact Us</a></li>
+		<li><a href="C:\Users\domin\Desktop\Project1\tickets.html">Tickets</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+	<section id="admission">
+	<h2>Museum Admission</h2>
+	<div class="price-table">
+		<div class="price-row">
+			<div class="ticket-type">Adults</div>
+			<div class="ticket-price">$10</div>
+    </div>
+    <div class="price-row">
+      <div class="ticket-type">Students</div>
+      <div class="ticket-price">$7</div>
+    </div>
+    <div class="price-row">
+      <div class="ticket-type">Seniors (65+)</div>
+      <div class="ticket-price">$8</div>
+    </div>
+    <div class="price-row">
+      <div class="ticket-type">Children (under 12)</div>
+      <div class="ticket-price">Free</div>
+    </div>
+	</div>
+	<h3>Attractions</h3>
+		<ul>
+			<li>Recreated Roman villa with authentic furnishings</li>
+			<li>Glimpse into gladiator battles at the arena</li>
+			<li>Interactive exhibits on Roman engineering and architecture</li>
+			<li>Insight into daily life through artifacts and artworks</li>
+		</ul>
+	</section>
+
+<section id="ticket-form">
+  <h2>Buy Tickets</h2>
+  <form>
+    <div class="form-group">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Your Name..." required>
+    </div>
+    <div class="form-group">
+      <label for="surname">Surname:</label>
+      <input type="text" id="surname" name="surname" placeholder="Your Surename..." required>
+    </div>
+	<div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Your Email..." required>
+    </div>
+    <div class="form-group">
+      <label for="attraction">Choose an Attraction:</label>
+      <select id="attraction" name="attraction">
+        <option value="villa">Recreated Roman Villa</option>
+        <option value="arena">Gladiator Arena</option>
+        <option value="exhibits">Interactive Exhibits</option>
+        <option value="daily-life">Insight into Daily Life</option>
+      </select>
+    </div>
+          <label for="adults">Adults:</label>
+      <input type="number" id="adults" name="adults" min="0" value="0">
+    <div class="form-group">
+      <label for="students">Students:</label>
+      <input type="number" id="students" name="students" min="0" value="0">
+    </div>
+    <div class="form-group">
+      <label for="seniors">Seniors (65+):</label>
+      <input type="number" id="seniors" name="seniors" min="0" value="0">
+    </div>
+    <div class="form-group">
+      <label for="children">Children (under 12):</label>
+      <input type="number" id="children" name="children" min="0" value="0">
+    </div>
+    <div class="form-group">
+      <label for="comment">Comment:</label>
+      <textarea id="comment" name="comment" placeholder="Your comment..."></textarea>
+    </div>
+    <button type="submit">Buy Now</button>
+  </form>
+</section>
+  </main>
+
+  <footer>
+		<div class="social-media">
+			<a href="https://www.facebook.com" target="_blank">Facebook</a>
+			<a href="https://www.twitter.com" target="_blank">Twitter</a>
+			<a href="https://www.instagram.com" target="_blank">Instagram</a>
+		</div>
+    <p>&copy; 2023 Roman Empire Website. All rights reserved.</p>
+	</footer>
+</body>
+</html>

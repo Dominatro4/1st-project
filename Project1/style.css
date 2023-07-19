@@ -1,0 +1,241 @@
+/* Reset some default styles other wise evrything looks wierd and not on the place, people in coomnets on W3schools said that will help */
+
+
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+
+/* idea for list navabr was taken from W3schools */
+
+
+
+nav ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 4px 8px;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+}
+
+
+nav ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 4px 8px;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+}
+
+/* index.html */
+
+/* lookes better with some margins */
+main {
+  margin: 20px;
+}
+
+/* preventing overlaping on footer, was unnoing */
+section {
+  margin-bottom: 30px;
+}
+
+/* description/legend under map */
+#legendmap {
+	width: 310px; 
+	text-align: left; 
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+/* centering the map */
+
+#mainmap {
+    text-align: center;
+    max-width: 100%; 
+    overflow: hidden; 
+}
+
+#mainmap img {
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+}
+
+/* gallery */
+/* the idea of how gallery looks like was taken from W3schools */
+
+.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+.gallery:hover {
+  border: 1px solid #777;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+/* contact us */
+/* + tickets form as well like button etc. */
+
+.contact-info {
+  margin-top: 20px;
+}
+
+.contact-info a {
+	text-decoration: none;
+	color: black;
+}
+
+.contact-info p {
+  margin-bottom: 10px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+  max-width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #555;
+}
+
+.scrollable-area {
+  height: 200px;
+  overflow: auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-top: 20px;
+  width: 50%;
+}
+
+/* tickets */
+
+.price-table {
+  display: table;
+  margin-bottom: 20px;
+}
+
+.price-row {
+  display: table-row;
+}
+
+.ticket-type,
+.ticket-price {
+  display: table-cell;
+  padding: 5px 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+h3 {
+  margin-top: 20px;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+/* footer */
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+footer a {
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+}
+
+/* hover effect */
+footer a:hover {
+	color: red;
+}
+
