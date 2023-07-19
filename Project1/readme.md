@@ -29,7 +29,9 @@ If you wish to contribute to the improvement of this website, feel free to fork 
 
 ## Validator
 HTML - Errors were detected by the validator regarding file paths
+
 CSS - The validator found no errors
+
 All screenshots are provided in "ss" folder
 
 ## License
