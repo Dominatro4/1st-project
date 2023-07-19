@@ -1,4 +1,4 @@
-### Roman Empire Website
+# Roman Empire Website
 This repository contains the code and assets for the Roman Empire website, which serves as an educational platform to explore the history, culture, and artifacts of one of the greatest civilizations in history - the Roman Empire. The website is divided into different sections, each offering unique content and features.
 
 ## Sections
