@@ -27,6 +27,13 @@ To protect user privacy, the website includes a comprehensive privacy policy tha
 Contribution
 If you wish to contribute to the improvement of this website, feel free to fork the repository and submit pull requests with your changes. All contributions are welcome and will be thoroughly reviewed.
 
+Validator Testing
+
+HTML
+Errors were detected by the validator regarding file paths
+CSS
+No errors were found
+
 License
 The code and content in this repository are licensed under MIT License. Feel free to use, modify, and distribute the code for educational or personal purposes.
 
