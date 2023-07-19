@@ -27,8 +27,15 @@ To protect user privacy, the website includes a comprehensive privacy policy tha
 ## Contribution
 If you wish to contribute to the improvement of this website, feel free to fork the repository and submit pull requests with your changes. All contributions are welcome and will be thoroughly reviewed.
 
+## Validator
+HTML - Errors were detected by the validator regarding file paths
+
+CSS - The validator found no errors
+
 ## License
 The code and content in this repository are licensed under MIT License. Feel free to use, modify, and distribute the code for educational or personal purposes.
 
 ## Credits
 The content, images, and animations used on the website are credited to their respective sources, adhering to copyright guidelines.
+
+
