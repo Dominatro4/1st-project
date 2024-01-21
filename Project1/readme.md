@@ -18,11 +18,17 @@ The website is designed to be user-friendly, with a clean and modern look. The s
 ## Navigation
 The navigation bar at the top of each page offers quick access to different sections of the website, allowing visitors to easily move between pages.
 
+![Responsice Mockup](https://github.com/Dominatro4/1st-project/blob/main/ssy/navbar.png)
+
 ## Social Media Integration
 The website is connected to popular social media platforms such as Facebook, Twitter, and Instagram, enabling visitors to stay updated on museum events and news.
 
+![Responsice Mockup](https://github.com/Dominatro4/1st-project/blob/main/ssy/footer.png)
+
 ## Privacy Policy
 To protect user privacy, the website includes a comprehensive privacy policy that outlines how personal information is collected, used, and safeguarded.
+
+![Responsice Mockup](https://github.com/Dominatro4/1st-project/blob/main/ssy/privacy%20policy.png)
 
 ## Contribution
 If you wish to contribute to the improvement of this website, feel free to fork the repository and submit pull requests with your changes. All contributions are welcome and will be thoroughly reviewed.
