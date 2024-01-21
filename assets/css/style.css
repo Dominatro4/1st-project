@@ -234,4 +234,68 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li {
       color: red;
   }
   
+
+
+  
+  /* Media Queries for Responsive Design */
+
+/* Small screens */
+@media only screen and (max-width: 600px) {
+  nav ul {
+      flex-direction: column;
+  }
+
+  nav ul li {
+      margin-right: 0;
+      margin-bottom: 5px;
+  }
+
+  .gallery {
+      width: 100%;
+  }
+  
+  .scrollable-area {
+      width: 100%;
+  }
+}
+
+/* Medium screens */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  nav ul li {
+      margin-right: 15px;
+      margin-bottom: 0;
+  }
+
+  .price-table {
+      display: block;
+  }
+
+  .ticket-type,
+  .ticket-price {
+      display: block;
+      width: 100%;
+      box-sizing: border-box;
+  }
+}
+
+/* Large screens */
+@media only screen and (min-width: 1025px) {
+  .gallery {
+      width: 48%;
+      margin-right: 2%;
+  }
+
+  .gallery:nth-child(2n) {
+      margin-right: 0;
+  }
+
+  .scrollable-area {
+      width: 48%;
+      margin-right: 2%;
+  }
+
+  .scrollable-area:nth-child(2n) {
+      margin-right: 0;
+  }
+}
   
