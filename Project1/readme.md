@@ -91,7 +91,6 @@ The live link can be found here - https://dominatro4.github.io/1st-project/index
 ## Content 
 
 - The text for the Home page was taken from Wikipedia and [Museum](https://www.mpm.edu/research-collections/anthropology/anthropology-collections-research/mediterranean-oil-lamps/roman-empire-brief-history)
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
 
 
 ## Media
