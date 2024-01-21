@@ -1,49 +1,100 @@
 # Roman Empire Museum
 This repository contains the code and assets for the Roman Empire Museum website, which serves as an educational platform to explore the history, culture, and artifacts of one of the greatest civilizations in history "The Roman Empire". The website is divided into different sections, each offering unique content and features.
 
-## Sections
-index.html - The homepage of the website, welcoming visitors and providing a brief overview of the Roman Empire's history. It includes a dynamic navigation bar for easy navigation to other sections of the site.
+![Responsice Mockup](https://github.com/Dominatro4/1st-project/blob/main/ssy/home.png)
 
-about.html - This section provides detailed information about the museum, its vision, and mission. It introduces visitors to the different exhibits, artifacts, and experiences they can expect during their visit.
+## Features 
 
-gallery.html - In this section, visitors can explore a collection of captivating images and animations showcasing various aspects of the Roman Empire. The gallery includes visuals of iconic landmarks, ancient artifacts, and more.
+- __Homepage__
 
-contact.html - For those seeking more information or wishing to get in touch with the museum, the contact page provides the address, contact details, and an interactive form to submit inquiries or questions.
+  - The homepage of the website, welcoming visitors and providing a brief overview of the Roman Empire's history. It includes a dynamic navigation bar for easy navigation to other sections of the site.
 
-tickets.html - The tickets section allows visitors to purchase tickets for museum admission. The pricing table displays different ticket types, such as adults, students, seniors, and children, with corresponding prices. The form allows users to choose their desired attraction and specify the number of tickets needed.
+![Homepage](https://github.com/Dominatro4/1st-project/blob/main/ssy/home.png)
 
-## Styling
-The website is designed to be user-friendly, with a clean and modern look. The style.css file ensures consistent styling across all pages, including responsive layouts for different screen sizes.
+- __Navigation Bar__
 
-## Navigation
-The navigation bar at the top of each page offers quick access to different sections of the website, allowing visitors to easily move between pages.
+	- The navigation bar at the top of each page offers quick access to different sections of the website, allowing visitors to easily move between pages.
 
-![Responsice Mockup](https://github.com/Dominatro4/1st-project/blob/main/ssy/navbar.png)
+![Nav Bar](https://github.com/Dominatro4/1st-project/blob/main/ssy/navbar.png)
 
-## Social Media Integration
-The website is connected to popular social media platforms such as Facebook, Twitter, and Instagram, enabling visitors to stay updated on museum events and news.
+- __The landing page image__
 
-![Responsice Mockup](https://github.com/Dominatro4/1st-project/blob/main/ssy/footer.png)
+  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
+  - This section introduces the user to Roman Empire
 
-## Privacy Policy
-To protect user privacy, the website includes a comprehensive privacy policy that outlines how personal information is collected, used, and safeguarded.
+![Landing Page](https://github.com/Dominatro4/1st-project/blob/main/ssy/landing.png)
 
-![Responsice Mockup](https://github.com/Dominatro4/1st-project/blob/main/ssy/privacy%20policy.png)
+- __The Footer__ 
 
-## Contribution
-If you wish to contribute to the improvement of this website, feel free to fork the repository and submit pull requests with your changes. All contributions are welcome and will be thoroughly reviewed.
+  - The footer section includes links to the relevant social media sites for Roman Empire. The links will open to a new tab to allow easy navigation for the user. 
+  - The footer is valuable to the user as it encourages them to keep connected via social media
 
-## Validator
-HTML - Errors were detected by the validator regarding file paths
+![Footer](https://github.com/Dominatro4/1st-project/blob/main/ssy/footer.png)
 
-CSS - The validator found no errors
+- __Gallery__
 
-All screenshots are provided in "ss" folder
+  - In this section, visitors can explore a collection of captivating images and animations showcasing various aspects of the Roman Empire. The gallery includes visuals of iconic landmarks, ancient artifacts, and more.
 
-## License
-The code and content in this repository are licensed under MIT License. Feel free to use, modify, and distribute the code for educational or personal purposes.
+![Gallery](https://github.com/Dominatro4/1st-project/blob/main/ssy/gallery.png)
 
-## Credits
-The content, images, and animations used on the website are credited to their respective sources, adhering to copyright guidelines.
+- __Tickets__
+
+  - The tickets section allows visitors to purchase tickets for museum admission. The pricing table displays different ticket types, such as adults, students, seniors, and children, with corresponding prices. The form allows users to choose their desired attraction and specify the number of tickets needed.
+  
+![Tickets](https://github.com/Dominatro4/1st-project/blob/main/ssy/tickets.png)
+
+- __Contact__ 
+
+  - For those seeking more information or wishing to get in touch with the museum, the contact page provides the address, contact details, and an interactive form to submit inquiries or questions.
+
+![Contact](https://github.com/Dominatro4/1st-project/blob/main/ssy/contact.png)
+
+- __About__
+
+  - This section provides detailed information about the museum, its vision, and mission. It introduces visitors to the different exhibits, artifacts, and experiences they can expect during their visit.
+
+![About](https://github.com/Dominatro4/1st-project/blob/main/ssy/about.png)
+
+- __Privacy Policy__
+
+  - To protect user privacy, the website includes a comprehensive privacy policy that outlines how personal information is collected, used, and safeguarded
+![About](https://github.com/Dominatro4/1st-project/blob/main/ssy/privacy%20policy.png)
+
+### Features Left to Implement
+
+  - Graphic/CSS style improvement
+
+## Testing 
+
+  - My testing process has been thorough, covering different aspects of functionality and user experience. The identified issues are actively being worked on, and updates will be provided to ensure a seamless and enjoyable experience for all users.
 
 
+### Validator Testing 
+
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fdominatro4.github.io%2F1st-project%2Findex.html)
+
+### Unfixed Bugs
+
+  - Strange image distortions on the website
+  - Overlaping buttons in nav bar and footer on phone screen sizes
+
+## Deployment
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+
+The live link can be found here - https://dominatro4.github.io/1st-project/index.html
+
+
+## Content 
+
+- The text for the Home page was taken from Wikipedia and [Museum](https://www.mpm.edu/research-collections/anthropology/anthropology-collections-research/mediterranean-oil-lamps/roman-empire-brief-history)
+- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
+
+
+## Media
+
+- The photos used on the home and sign up page are from Google and [Museum](https://www.mpm.edu/research-collections/anthropology/anthropology-collections-research/mediterranean-oil-lamps/roman-empire-brief-history)
+- The images used for the gallery page were taken from Google and Wikipedia
